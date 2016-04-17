@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "774ed95481b48a5e68c0a9b8d766fc73",
-    "content-hash": "d7b0307286100e8b817ccb0d72c80a9a",
+    "hash": "770c7df6a2be2229535ca4025da41a29",
+    "content-hash": "56cb26e90ffc4319440b17e7f9eaa8bb",
     "packages": [],
     "packages-dev": [
         {
@@ -53,20 +53,20 @@
         },
         {
             "name": "antecedent/patchwork",
-            "version": "1.4.2",
+            "version": "1.3.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/antecedent/patchwork.git",
-                "reference": "f691893db7111eb858f0e4b7b8d4b9c4143848c8"
+                "reference": "908a233f8a374f02b02ff5e3d6ba687ca506d57d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/antecedent/patchwork/zipball/f691893db7111eb858f0e4b7b8d4b9c4143848c8",
-                "reference": "f691893db7111eb858f0e4b7b8d4b9c4143848c8",
+                "url": "https://api.github.com/repos/antecedent/patchwork/zipball/908a233f8a374f02b02ff5e3d6ba687ca506d57d",
+                "reference": "908a233f8a374f02b02ff5e3d6ba687ca506d57d",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.4.0"
+                "php": ">=5.3.0"
             },
             "type": "library",
             "notification-url": "https://packagist.org/downloads/",
@@ -79,7 +79,8 @@
                     "email": "ignas.rudaitis@gmail.com"
                 }
             ],
-            "description": "Method redefinition (monkey-patching) functionality for PHP.",
+            "description": "A pure PHP library that lets you redefine user-defined functions at runtime.",
+            "homepage": "http://antecedent.github.io/patchwork/",
             "keywords": [
                 "aop",
                 "aspect",
@@ -89,7 +90,7 @@
                 "runkit",
                 "testing"
             ],
-            "time": "2016-02-22 05:07:12"
+            "time": "2015-10-09 18:20:06"
         },
         {
             "name": "doctrine/instantiator",
@@ -1107,25 +1108,25 @@
         },
         {
             "name": "symfony/yaml",
-            "version": "v3.0.4",
+            "version": "v2.8.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "0047c8366744a16de7516622c5b7355336afae96"
+                "reference": "584e52cb8f788a887553ba82db6caacb1d6260bb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/0047c8366744a16de7516622c5b7355336afae96",
-                "reference": "0047c8366744a16de7516622c5b7355336afae96",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/584e52cb8f788a887553ba82db6caacb1d6260bb",
+                "reference": "584e52cb8f788a887553ba82db6caacb1d6260bb",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.5.9"
+                "php": ">=5.3.9"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.0-dev"
+                    "dev-master": "2.8-dev"
                 }
             },
             "autoload": {
@@ -1152,7 +1153,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2016-03-04 07:55:57"
+            "time": "2016-03-04 07:54:35"
         }
     ],
     "aliases": [],
@@ -1165,5 +1166,8 @@
     "platform": {
         "php": ">=5.3.0"
     },
-    "platform-dev": []
+    "platform-dev": [],
+    "platform-overrides": {
+        "php": "5.3.29"
+    }
 }

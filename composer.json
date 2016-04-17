@@ -21,5 +21,10 @@
   "require-dev": {
     "phpunit/phpunit": "^4.8",
     "10up/wp_mock": "dev-master"
+  },
+  "config": {
+    "platform": {
+      "php": "5.3.29"
+    }
   }
 }
