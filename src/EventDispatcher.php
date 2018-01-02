@@ -130,7 +130,7 @@ class EventDispatcher {
 			throw new \InvalidArgumentException( '$accepted must be an int.' );
 		}
 
-		add_filter( $event_name, $listener, $priority, $accepted_args );
+		add_filter( $this->get_action_name_for_event( $event_name ), $listener, $priority, $accepted_args );
 
 		return $this;
 	}
